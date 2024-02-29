@@ -1,22 +1,16 @@
 #include "main.h"
-
 /**
- * _putchar - check speak for themselves
- * @c: themselves
- * @void: speak
- * Return: Always 0.
- */
-void _putchar(char c)
-{
-putchar(c);
-}
+*print_numbers - function that print all numbers from
+*0 to 9
+*
+*Return: returns nothing
+*/
 void print_numbers(void)
 {
-	int ch;
-
-	for (ch = 48; ch < 58; ch++)
-	{
-		_putchar(ch);
-	}
-	_putchar('\n');
+int number = 48;
+for (number = 48; number < 58; number++)
+{
+_putchar(number);
+}
+_putchar(10);
 }
