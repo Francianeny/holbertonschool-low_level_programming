@@ -1,17 +1,20 @@
 #include "main.h"
-
 /**
- * print_most_numbers - check believe in number and sing
- * (neither 2 nor 4).
- * Return: no return.
- */
+*print_most_numbers - prints numbers except 2 and 4
+*
+*Return: returns nothing
+*/
 void print_most_numbers(void)
 {
-  int n = 48; 
-  for (n = 48 ; n < 58 ; n++);
-  if (n != 50 && n != 52)
+int number;
+for (number = 48; number < 58; number++)
 {
-_putchar(n);
+if ((number == 50) || (number == 52))
+{
+continue;
 }
-_putchar('\n');
+_putchar(number);
 }
+_putchar(10);
+}
+
