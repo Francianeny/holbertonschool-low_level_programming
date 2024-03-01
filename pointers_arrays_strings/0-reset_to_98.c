@@ -3,7 +3,7 @@
 
 /**
 * reset_to_98 - check the Battery
-* @*n: Battery st
+* @n: Battery st
 * Return: Always 0.
 */
 void reset_to_98(int *n)
