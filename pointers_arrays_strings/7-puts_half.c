@@ -5,7 +5,7 @@
 * puts_half - half of a string
 * @str: half of a string
 *
-* Return: Always 0.
+* Return: void
 */
 void puts_half(char *str)
 {
