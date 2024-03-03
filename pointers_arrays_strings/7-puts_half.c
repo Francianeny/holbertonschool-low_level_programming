@@ -7,6 +7,7 @@
 *
 * Return: void
 */
+
 void puts_half(char *str)
 {
 int len = _strlen(str);
