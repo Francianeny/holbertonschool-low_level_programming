@@ -8,26 +8,11 @@
 
 void reverse_array(int *a, int n)
 {
-int start = 0;
-int end = n - 1;
-while (start < end)
+int tmp, index;
+for (index = n - 1; index > n / 2; index--)
 {
-int temp = a[start];
-a[start] = a[end];
-a[end] = temp;
-start++;
-end--;
+tmp = a[n - 1 - index];
+a[n - 1 - index] = a[index];
+a[index] = tmp;
 }
-}
-
-int main(void)
-{
-int a[] = {1, 2, 3, 4, 5};
-int n = sizeof(a) / sizeof(a[0]);
-reverse_array(a, n);
-for (int i = 0; i < n; i++)
-{
-printf("%d ", a[i]);
-}
-return (0);
 }
