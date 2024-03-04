@@ -1,3 +1,4 @@
+
 #include "main.h"
 #include <stdio.h>
 
@@ -19,5 +20,6 @@ a++;
 }
 while (a < n)
 dest[a] = '\0';
+a++;
 return (dest);
 }

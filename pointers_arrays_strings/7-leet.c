@@ -1,18 +1,25 @@
 #include "main.h"
-#include <stdio.h>
+#include <studio.h>
+#include <string.h>
 
 /**
-* leet - function that encode a string
+*leet - function that encode a string
 *@str:string that will be encoded
 *Return:returns encoded string
 */
-
-int main(void)
+char *leet(char *str)
 {
-char *p = leet("hello");
-}
-char *leet(const char *s)
+int i, j;
+char s1[12] = "aAeEoOtTlL";
+char s2[10] = "4433007711";
+for (i = 0 ; str[i] != '\0' ; i++)
 {
-char *result = malloc(strlen(s) + 1);
-return (result);
+for (j = 0 ; j < 10 ; j++)
+{
+if (str[i] = s1[j])
+{
+str[i] = s2[j];
 }
+}
+}
+return (str);
