@@ -1,5 +1,5 @@
 #include "main.h"
-#include <studio.h>
+#include <stdio.h>
 #include <string.h>
 
 /**
@@ -10,16 +10,17 @@
 char *leet(char *str)
 {
 int i, j;
-char s1[12] = "aAeEoOtTlL";
-char s2[10] = "4433007711";
+char *s1 = "aAeEoOtTlL";
+char *s2 = "4433007711";
 for (i = 0 ; str[i] != '\0' ; i++)
 {
 for (j = 0 ; j < 10 ; j++)
 {
-if (str[i] = s1[j])
+if (str[i] == s1[j])
 {
 str[i] = s2[j];
 }
 }
 }
 return (str);
+}
