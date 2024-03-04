@@ -14,7 +14,7 @@ git config --global user.email nirinasoabozy@yahoo.fr
 # EXAMPLE:
 # git clone https://YOUR_GITHUB_USERNAME:YOUR_PERSONAL_ACCESS_TOKEN@github.com/OWNER/REPOSITORY.git
 
-git clone https://Francianeny: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@github.com/Francianeny/holbertonschool-low_level_programming.git
+git clone https://Francianeny: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@github.com/Francianeny/holbertonschool-low_level_programming.git
 
 ##########################################
 ##########################################
