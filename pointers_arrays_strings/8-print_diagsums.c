@@ -18,9 +18,10 @@ void print_diagsums(int *a, int size)
 		for (i = size - 1; i < size * (size - 1); i += size - 1)
 			sum2 += a[i];
 		{
-			putchar (sum1);
+			putchar(sum1 + '0');
+			putchar('\n');
+			putchar(sum2 + '0');
 		}
-		putchar (sum2);
+		putchar('\n');
 	}
-	putchar ('\n');
 }
