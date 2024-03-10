@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "main.h"
-
+#include "print_sign.h"
 /**
  * print_sign - Determines if the input number
  * greater, iqual or less than zero.
