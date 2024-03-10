@@ -8,14 +8,11 @@
  */
 int main(void)
 {
-    char *s = "hello";
-    char *f;
+    char s1[98];
+    char *ptr;
+    int i;
 
-    f = _strchr(s, 'l');
-
-    if (f != NULL)
+    for (i = 0; i < 98 - 1; i++)
     {
-        printf("%s\n", f);
+        s1[i] = '*';
     }
-    return (0);
-}
