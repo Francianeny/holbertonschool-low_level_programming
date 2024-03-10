@@ -2,21 +2,28 @@
 #include <stdio.h>
 
 /**
-*leet - function that encode a string
+*@leet: - function that encode a string
 *Return:returns encoded string
 */
 char *leet(char *)
 {
-	int i, j;
-	char *s1 = "aAeEoOtTlL";
-	char *s2 = "4433007711";
-	for (i = O; s[i] !='\O'; i++)
+	int count = 0, i;
+	int low_letters[] = {97, 101, 111, 116, 108};
+	int upp_letters[] = {65, 69, 79, 84, 76};
+	int numbers[] = {52, 51, 48, 55, 49};
+
+	while (*(s + count) != '\0')
 	{
-		for (j = O; j < 10; j++)
+		for (i = 0; i < 5; i++)
 		{
-			if (s[i] == s1[j])
-			s[i] = s2[j];
+			if (*(s + count) == low_letters[i] || *(s + count) == upp_letters[i])
+			{
+				*(s + count) = numbers[i];
+				break;
+			}
 		}
-		return (s);
-}
+		count++;
+	}
+
+	return (s);
 }
