@@ -3,9 +3,10 @@
 
 /**
 *@leet: - function that encode a string
+*@s: input string
 *Return:returns encoded string
 */
-char *leet(char *)
+char *leet(char *s)
 {
 	int count = 0, i;
 	int low_letters[] = {97, 101, 111, 116, 108};
