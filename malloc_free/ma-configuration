@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 ##########################################
 ##########################################
 # Configuration globale du profile GITHUB 
@@ -14,7 +13,7 @@ git config --global user.email nirinasoabozy@yahoo.fr
 # EXAMPLE:
 # git clone https://YOUR_GITHUB_USERNAME:YOUR_PERSONAL_ACCESS_TOKEN@github.com/OWNER/REPOSITORY.git
 
-git clone https://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@github.com/Francianeny/holbertonschool-low_level_programming.git
+git clone https://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@github.com/Francianeny/holbertonschool-low_level_programming.git
 
 ##########################################
 ##########################################
