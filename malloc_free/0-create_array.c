@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * simple_print_buffer - prints buffer in hexa
+ * create_array - create_array
  * @c: character
  * @size: the size of the memory to print
  *
@@ -11,22 +11,24 @@
  */
 char *create_array(unsigned int size, char c)
 {
-  char *strout;
-  unsigned int i, j;
+	char *cr;
+	unsigned int i;
 
-  if (str == NULL)
-    return (NULL);
+	if (size == 0)
+	{
+		return (NULL);
+	}
 
-  for (i = 0; str[i] != '\0'; i++)
-    {
-      strout = (char *)malloc(sizeof(char) * (i + 1));
+	cr = malloc(sizeof(c) * size);
 
-      if (strout == NULL)
-	return (NULL);
-    }
-  for (j = 0; j <= i; j++)
-    {
-      strout[j] = str[j];
-    }
-  return (strout);
+	if (cr == NULL)
+	{
+		return (NULL);
+	}
+
+	for (i = 0; i < size; i++)
+		cr[i] = c;
+	{
+		return (cr);
+	}
 }
