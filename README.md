@@ -1,1 +1,1 @@
-not empty proj more malloc
+not empty proj structure typedef
