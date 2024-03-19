@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include "function_pointers.h"
+#include "3-calc.h"
+/**
+ * get_op_func -operator function
+ * @a: num1
+ * @b: num2
+ * Return: function result
+ */
+int (*get_op_func(char *s))(int, int)
+{
+	

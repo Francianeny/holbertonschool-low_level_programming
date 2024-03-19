@@ -1,1 +1,1 @@
-not empty proj function pointer
+not empty proj variadic functions
