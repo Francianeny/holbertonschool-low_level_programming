@@ -1,1 +1,1 @@
-not empty proj structure typedef
+not empty proj function pointer
