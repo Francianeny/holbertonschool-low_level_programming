@@ -2,11 +2,11 @@
 #include "function_pointers.h"
 #include "3-calc.h"
 /**
- * get_op_func - function that selects the correct function
- * @s: is the operator passed as argument to the program
- * 
- * Return: function result
- */
+* op_operator - operator
+* @a: num1
+* @b: num2
+* Return: function result
+*/
 op_t ops[] = {
         {"+", op_add},
         {"-", op_sub},
@@ -18,55 +18,55 @@ op_t ops[] = {
     int i;
 
 /**
- * op_add - addition operator
- * @a: num1
- * @b: num2
- * Return: function result
- */
+* op_add - addition operator
+* @a: num1
+* @b: num2
+* Return: function result
+*/
 int op_add(int a, int b)
 {
 	return (a + b);
 }
 
 /**
- * op_sub - subtraction operator
- * @a: num1
- * @b: num2
- * Return: function result
- */
+* op_sub - subtraction operator
+* @a: num1
+ @b: num2
+* Return: function result
+*/
 int op_sub(int a, int b)
 {
 	return (a - b);
 }
 
 /**
- * op_mul - multiplication operator
- * @a: num1
- * @b: num2
- * Return: function result
- */
+* op_mul - multiplication operator
+* @a: num1
+* @b: num2
+* Return: function result
+*/
 int op_mul(int a, int b)
 {
 	return (a * b);
 }
 
 /**
- * op_div - division operator
- * @a: num1
- * @b: num2
- * Return: function result
- */
+* op_div - division operator
+* @a: num1
+* @b: num2
+* Return: function result
+*/
 int op_div(int a, int b)
 {
 	return (a / b);
 }
 
 /**
- * op_mod - modulo operator
- * @a: num1
- * @b: num2
- * Return: function result
- */
+* op_mod - modulo operator
+* @a: num1
+* @b: num2
+* Return: function result
+*/
 int op_mod(int a, int b)
 {
 	return (a % b);
