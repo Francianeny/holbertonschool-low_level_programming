@@ -15,7 +15,7 @@ int op_add(int a, int b)
 /**
 * op_sub - subtraction operator
 * @a: num1
- @b: num2
+* @b: num2
 * Return: function result
 */
 int op_sub(int a, int b)
