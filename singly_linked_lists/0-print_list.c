@@ -4,7 +4,7 @@
 #include "lists.h"
 
 /**
- * _print_list - a function that prints all the elements of a list_t list
+ * print_list - a function that prints all the elements of a list_t list
  * @h: a pointer to a constant list_t structure.
  * Return: the number of nodes
  */
@@ -22,5 +22,6 @@ size_t count;
 		h = h->next;
 		count++;
 	}
+	count++;
 	return (count);
 }
