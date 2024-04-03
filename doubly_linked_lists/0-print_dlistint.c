@@ -4,11 +4,11 @@
 #include "lists.h"
 
 /**
-*print_dlistint - a function that prints all the elements of a list_t list.
-*@h: to initialize the current pointer to the first node of the list
-*Return: the number of nodes
-*/
-
+ * print_dlistint - prints all the elements of a
+ * dlistint_t list
+ * @h: head of the list
+ * Return: the number of nodes
+ */
 size_t print_dlistint(const dlistint_t *h)
 {
 	int count;
@@ -27,5 +27,6 @@ size_t print_dlistint(const dlistint_t *h)
 		count++;
 		h = h->next;
 	}
+
 	return (count);
 }
