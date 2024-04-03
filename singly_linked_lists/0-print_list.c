@@ -22,6 +22,5 @@ size_t count;
 		h = h->next;
 		count++;
 	}
-	count++;
 	return (count);
 }
